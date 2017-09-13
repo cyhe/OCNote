@@ -2,7 +2,7 @@
 //  LYBaseWebViewController.m
 //  LYCampusSocial
 //
-//  Created by esirnus on 2017/5/9.
+//  Created by cyhe on 2017/5/9.
 //  Copyright © 2017年 HHLY. All rights reserved.
 //
 
