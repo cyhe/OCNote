@@ -9,34 +9,22 @@
 
 #import <JavaScriptCore/JavaScriptCore.h>
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
 // 使用JSCore所有的方法需要声明协议并实现,作用:所规定的方法变量等会对js开放,可以通过js调用到
+// 该声明的方法必须为@require
+
 @protocol CYBaseOpenMethodToJSProtocol <JSExport>
 
 - (NSString *)getUserId;
 
-- (NSString *)getLoginToken;
-
-- (NSString *)getVersionCode;
-
-- (NSString *)getClientType;
-
-- (void)submitSuccess;
-
 - (void)showTip:(NSString *)msg;
-
-- (void)showLoading;
-
-- (void)hideLoading;
-
 
 @end
 
 @interface CYBaseWebViewController : UIViewController <CYBaseOpenMethodToJSProtocol>
 
 @property (nonatomic, strong) UIWebView *webView;
-
-@property (nonatomic, strong) NSDictionary<NSString *, id<JSExport>> *getHandlers;
 
 @property (nonatomic, strong) JSContext *jsContext;
 

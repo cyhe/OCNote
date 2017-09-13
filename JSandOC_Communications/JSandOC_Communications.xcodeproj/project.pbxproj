@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		924CEB7B1F68BFD300F72004 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 924CEB751F68BFD300F72004 /* AppDelegate.m */; };
+		924CEB7C1F68BFD300F72004 /* CYBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924CEB781F68BFD300F72004 /* CYBaseWebViewController.m */; };
+		924CEB7D1F68BFD300F72004 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924CEB7A1F68BFD300F72004 /* ViewController.m */; };
+		924CEB7F1F68BFFB00F72004 /* testWebView.html in Resources */ = {isa = PBXBuildFile; fileRef = 924CEB7E1F68BFFB00F72004 /* testWebView.html */; };
+		924CEB821F68C0BE00F72004 /* CYJSInterFaceWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924CEB811F68C0BE00F72004 /* CYJSInterFaceWebViewController.m */; };
 		92DCC0791F68113500CA2482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DCC0781F68113500CA2482 /* main.m */; };
-		92DCC07C1F68113500CA2482 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DCC07B1F68113500CA2482 /* AppDelegate.m */; };
-		92DCC07F1F68113500CA2482 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DCC07E1F68113500CA2482 /* ViewController.m */; };
 		92DCC0821F68113500CA2482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DCC0801F68113500CA2482 /* Main.storyboard */; };
 		92DCC0841F68113500CA2482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DCC0831F68113500CA2482 /* Assets.xcassets */; };
 		92DCC0871F68113500CA2482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DCC0851F68113500CA2482 /* LaunchScreen.storyboard */; };
 		92DCC0921F68113500CA2482 /* JSandOC_CommunicationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DCC0911F68113500CA2482 /* JSandOC_CommunicationsTests.m */; };
 		92DCC09D1F68113500CA2482 /* JSandOC_CommunicationsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DCC09C1F68113500CA2482 /* JSandOC_CommunicationsUITests.m */; };
-		92DCC0AC1F68117400CA2482 /* CYBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DCC0AB1F68117400CA2482 /* CYBaseWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		924CEB741F68BFD300F72004 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		924CEB751F68BFD300F72004 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		924CEB771F68BFD300F72004 /* CYBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBaseWebViewController.h; sourceTree = "<group>"; };
+		924CEB781F68BFD300F72004 /* CYBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBaseWebViewController.m; sourceTree = "<group>"; };
+		924CEB791F68BFD300F72004 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		924CEB7A1F68BFD300F72004 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		924CEB7E1F68BFFB00F72004 /* testWebView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = testWebView.html; sourceTree = "<group>"; };
+		924CEB801F68C0BE00F72004 /* CYJSInterFaceWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYJSInterFaceWebViewController.h; sourceTree = "<group>"; };
+		924CEB811F68C0BE00F72004 /* CYJSInterFaceWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYJSInterFaceWebViewController.m; sourceTree = "<group>"; };
 		92DCC0741F68113500CA2482 /* JSandOC_Communications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSandOC_Communications.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DCC0781F68113500CA2482 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		92DCC07A1F68113500CA2482 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		92DCC07B1F68113500CA2482 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		92DCC07D1F68113500CA2482 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		92DCC07E1F68113500CA2482 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		92DCC0811F68113500CA2482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92DCC0831F68113500CA2482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92DCC0861F68113500CA2482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,8 +59,6 @@
 		92DCC0981F68113500CA2482 /* JSandOC_CommunicationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSandOC_CommunicationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DCC09C1F68113500CA2482 /* JSandOC_CommunicationsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSandOC_CommunicationsUITests.m; sourceTree = "<group>"; };
 		92DCC09E1F68113500CA2482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92DCC0AA1F68117400CA2482 /* CYBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBaseWebViewController.h; sourceTree = "<group>"; };
-		92DCC0AB1F68117400CA2482 /* CYBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBaseWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		924CEB731F68BFD300F72004 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				924CEB741F68BFD300F72004 /* AppDelegate.h */,
+				924CEB751F68BFD300F72004 /* AppDelegate.m */,
+				924CEB791F68BFD300F72004 /* ViewController.h */,
+				924CEB7A1F68BFD300F72004 /* ViewController.m */,
+				924CEB801F68C0BE00F72004 /* CYJSInterFaceWebViewController.h */,
+				924CEB811F68C0BE00F72004 /* CYJSInterFaceWebViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		924CEB761F68BFD300F72004 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				924CEB7E1F68BFFB00F72004 /* testWebView.html */,
+				924CEB771F68BFD300F72004 /* CYBaseWebViewController.h */,
+				924CEB781F68BFD300F72004 /* CYBaseWebViewController.m */,
+			);
+			name = Base;
+			path = Classes/Base;
+			sourceTree = "<group>";
+		};
 		92DCC06B1F68113500CA2482 = {
 			isa = PBXGroup;
 			children = (
@@ -104,12 +133,8 @@
 		92DCC0761F68113500CA2482 /* JSandOC_Communications */ = {
 			isa = PBXGroup;
 			children = (
-				92DCC0AA1F68117400CA2482 /* CYBaseWebViewController.h */,
-				92DCC0AB1F68117400CA2482 /* CYBaseWebViewController.m */,
-				92DCC07A1F68113500CA2482 /* AppDelegate.h */,
-				92DCC07B1F68113500CA2482 /* AppDelegate.m */,
-				92DCC07D1F68113500CA2482 /* ViewController.h */,
-				92DCC07E1F68113500CA2482 /* ViewController.m */,
+				924CEB731F68BFD300F72004 /* Classes */,
+				924CEB761F68BFD300F72004 /* Base */,
 				92DCC0801F68113500CA2482 /* Main.storyboard */,
 				92DCC0831F68113500CA2482 /* Assets.xcassets */,
 				92DCC0851F68113500CA2482 /* LaunchScreen.storyboard */,
@@ -208,7 +233,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = CYHE;
+				ORGANIZATIONNAME = cyhe;
 				TargetAttributes = {
 					92DCC0731F68113500CA2482 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -251,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				924CEB7F1F68BFFB00F72004 /* testWebView.html in Resources */,
 				92DCC0871F68113500CA2482 /* LaunchScreen.storyboard in Resources */,
 				92DCC0841F68113500CA2482 /* Assets.xcassets in Resources */,
 				92DCC0821F68113500CA2482 /* Main.storyboard in Resources */,
@@ -278,9 +304,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92DCC07F1F68113500CA2482 /* ViewController.m in Sources */,
-				92DCC0AC1F68117400CA2482 /* CYBaseWebViewController.m in Sources */,
-				92DCC07C1F68113500CA2482 /* AppDelegate.m in Sources */,
+				924CEB7C1F68BFD300F72004 /* CYBaseWebViewController.m in Sources */,
+				924CEB7B1F68BFD300F72004 /* AppDelegate.m in Sources */,
+				924CEB7D1F68BFD300F72004 /* ViewController.m in Sources */,
+				924CEB821F68C0BE00F72004 /* CYJSInterFaceWebViewController.m in Sources */,
 				92DCC0791F68113500CA2482 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +540,7 @@
 				92DCC0A31F68113500CA2482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92DCC0A41F68113500CA2482 /* Build configuration list for PBXNativeTarget "JSandOC_CommunicationsTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +549,7 @@
 				92DCC0A61F68113500CA2482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92DCC0A71F68113500CA2482 /* Build configuration list for PBXNativeTarget "JSandOC_CommunicationsUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +558,7 @@
 				92DCC0A91F68113500CA2482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
